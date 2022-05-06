@@ -1,0 +1,31 @@
+modLoader="javafml" #mandatory
+loaderVersion="[40,)"
+license="All rights reserved"
+[[mods]]
+modId="beacons"
+version="${file.jarVersion}"
+displayName="Beacons (烽火)"
+logoFile="beacons.png"
+authors="AR"
+description='''
+Beacons are maybe the earliest human artifacts to transfer messages, in war, through fire and smokes.
+It is like the wires now, transferring messages in binary.
+Just like wires, why don't we put some simple logic into the beacon, and made it to a much more complicated beacon logical network, like processors.
+
+烽火可能是最早(在我印象中)人类在战争中用火和烟来传递信息的途径,
+就像现在的电线一样, 用着二进制传递数据.
+我们是不是可以像给这些线路加上晶体管一样, 给这些烽火加上点简单的逻辑, 组合起来, 是不是就能做出像现代处理器这样的逻辑网络了呢?
+'''
+[[dependencies.examplemod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+# Here's another dependency
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"

@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"empty=true,lit=false": { "model": "beacons:block/beacon_fire_empty" },
+		"empty=true,lit=true": { "model": "beacons:block/beacon_fire_empty" },
+		"empty=false,lit=false": { "model": "beacons:block/beacon_fire" },
+		"empty=false,lit=true": { "model": "beacons:block/beacon_fire_lit" }
+	}
+}
